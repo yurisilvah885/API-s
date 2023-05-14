@@ -1,0 +1,5 @@
+const express=require('express')
+const app= express()  //inicializando 
+app.listen('3000') // método do express que ouve o server(através de portas)
+
+app.route('/').get ((req,res)=> res.send("hello)
