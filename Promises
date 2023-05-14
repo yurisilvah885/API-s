@@ -1,0 +1,13 @@
+let aceitar=true
+console.log('pedir uber')
+const Promessa= new Promise ((resolve, reject)=> {
+if(aceitar){
+reuturn resolve('pedido aceito') }
+
+else{
+return reject ('pedido negado') } )
+}
+console.log('aguardando')
+promessa.then(result=>console.log(result))
+.catch(erro=> console.log(erro))
+.finally (() => console.log('finalizado')
