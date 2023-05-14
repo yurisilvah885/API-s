@@ -1,0 +1,10 @@
+const https=require('https)
+
+const Api='(site com usuários diversos)'
+https.get(Api,res=> {
+
+console.log(res.StatusCode)
+}
+)
+
+console.log('conectando Api's)
